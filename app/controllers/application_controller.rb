@@ -14,7 +14,6 @@ class ApplicationController < Sinatra::Base
       dog = Dog.new
       dog.save
       dog
-
     end
   end
 end
