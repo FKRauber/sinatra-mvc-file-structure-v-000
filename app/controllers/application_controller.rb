@@ -11,8 +11,10 @@ class ApplicationController < Sinatra::Base
 
   class Dog
     def initialize(name, breed, age)
-      
-      
+      dog = Dog.new
+      dog.save
+      dog
+
     end
   end
 end
