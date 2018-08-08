@@ -10,6 +10,8 @@ class ApplicationController < Sinatra::Base
   end
 
   class Dog
+    attr_accessor :name, :breed, :age
+    
     def initialize(name, breed, age)
       dog = Dog.new
       dog.save
